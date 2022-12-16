@@ -19,6 +19,8 @@ good-names=i,j,k,l
            s,n,
            a,b,
            el,
+           w, h, 
+           r
 
 
 [EXCEPTIONS]

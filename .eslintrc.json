@@ -3,7 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": "airbnb-base",
+    "extends": ["airbnb-base"],
     "overrides": [
         {
             "files": [ "**/*.js" ]
@@ -24,7 +24,8 @@
         }],
         "no-unused-vars": "off",
         "semi": "off",
-        "comma-dangle": "error"
+        "comma-dangle": "error",
+        "operator-linebreak": "off"
     },
     "ignorePatterns": ["gulpfile.js", "gulp/**/*", "webpack.config.js", "**/*.py"]  
 }
